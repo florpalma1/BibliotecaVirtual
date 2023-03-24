@@ -501,6 +501,46 @@ body {
     text-rendering: none;
 }
 
+.arrivals .arrivals-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 1rem 0;
+}
+
+.arrivals .arrivals-slider .box:hover {
+    border: .1rem solid black;
+}
+
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3 {
+    font-size: 2rem;
+    color: black;
+}
+
+.arrivals .arrivals-slider .box .content .price{
+    font-size: 2.2rem;
+    color: black;
+    padding-bottom: .5rem;
+}
+.arrivals .arrivals-slider .box .content .price span{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i{
+    font-size: 1.5rem;
+    color: green;
+}
+
+
+
 
 
 
@@ -559,6 +599,15 @@ body {
 
     .home .row .content h3 {
         font-size: 3.5rem;
+    }
+
+    .newsletter {
+        background-position: left;
+    }
+
+    .newsletter form {
+        margin-left: 0;
+        max-width: 100%;
     }
 }
 
